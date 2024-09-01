@@ -1,0 +1,13 @@
+{
+  "name": "video-server",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "This is a sample video player. The application demonstrates how to play video streams.",
+  "scripts": {
+    "dev": "pnpm --F @video-server/* run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
